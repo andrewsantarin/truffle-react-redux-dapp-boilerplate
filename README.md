@@ -3,22 +3,17 @@ This repo is a variation of [`truffle-box/react-auth-box`](https://github.com/tr
 
 The [Domain Driven Design](https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126) idea goes way back - as early as 2015 ([here's an article](https://marmelab.com/blog/2015/12/17/react-directory-structure.html) from Marmelab) - so, this is nothing new.
 
-## Clone the repo
-```
-git clone https://github.com/masonforest/truffle-react-redux-starter-kit.git
-```
-
 ## Installation
-The instructions are identical to `react-auth-box`, with only one difference: The dapp's production build output folder is now called `dist` instead of `build_webpack`.
+The instructions are identical to `react-auth-box`, with only two difference: The dapp's production build output folder is now called `dist` instead of `build_webpack` and that you clone this repo instead of running `truffle unbox react-auth`.
 
 1. Install Truffle globally.
     ```javascript
     npm install -g truffle
     ```
 
-2. Download the box. This also takes care of installing the necessary dependencies.
+2. Clone this repo. This also takes care of installing the necessary dependencies.
     ```javascript
-    truffle unbox react-auth
+    git clone https://github.com/andrewsantarin/truffle-react-redux-dapp-boilerplate.git
     ```
 
 3. Run the development console.
